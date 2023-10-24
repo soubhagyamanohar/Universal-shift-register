@@ -11,5 +11,5 @@ The second input (first pin of multiplexer) is connected to the output of the ve
 The third input (second pin of multiplexer) is connected to the output of the very-next flip-flop which facilitates the left shift.
 The fourth input (third pin of multiplexer) is connected to the individual bits of the input data which facilitates parallel loading.
 The working of the Universal shift register depends on the inputs given to the select lines.The register operations performed for the various inputs of select lines are as follows:
- ![324 1](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/a511e813-ad8e-488d-a916-df5d11862ca7)
+![Functional table](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/b0d1ae9c-16eb-44f9-98d1-81bb04c9e9de)
 
