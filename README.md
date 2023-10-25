@@ -20,22 +20,25 @@ The working of the Universal shift register depends on the inputs given to the s
 ![Universal-Shift-Register-Diagram 1](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/6d542947-80b4-486a-9237-1906083a0200)
 
   
-  *Serial input for shift-right control enables the data transfer towards the right and all the serial input and output lines are connected to the shift-right mode. *The input is given to the AND gate-1 of the flip-flop -1 as shown in the figure via serial input pin.
+  * Serial input for shift-right control enables the data transfer towards the right and all the serial input and output lines are connected to the shift-right mode.
+  
+
+* The input is given to the AND gate-1 of the flip-flop -1 as shown in the figure via serial input pin.
 
   
-*Serial input for shift-left enables the data transfer towards the left and all the serial input and output lines are connected to shift-left mode.
+* Serial input for shift-left enables the data transfer towards the left and all the serial input and output lines are connected to shift-left mode.
 
 
-*In parallel data transfer, all the parallel inputs and outputs lines are associated with the parallel load.
+* In parallel data transfer, all the parallel inputs and outputs lines are associated with the parallel load.
 
 
-*Clear pin clears the register and set to 0.
+* Clear pin clears the register and set to 0.
 
 
-*CLK pin provides clock pulses to synchronize all the operations.
+* CLK pin provides clock pulses to synchronize all the operations.
 
 
-*In the control state, the information or data in the register would not change even though the clock pulse is applied.
+* In the control state, the information or data in the register would not change even though the clock pulse is applied.
 
 
 * If the register operates with a parallel load and shifts the data towards the right and left, then it acts as a universal shift register.
@@ -52,17 +55,17 @@ The working of the Universal shift register depends on the inputs given to the s
 * Pin-0 of first 4×1 Mux is fed to the output pin of the first flip-flop. Observe the connections as shown in the figure.
 
 
-*Pin-1 of the first 4X1 MUX is connected to serial input for shift right. In this mode, the register shifts the data towards the right.
+* Pin-1 of the first 4X1 MUX is connected to serial input for shift right. In this mode, the register shifts the data towards the right.
 
 
-*Similarly, pin-2 of 4X1 MUX is connected to the serial input for shift-left. In this mode, the universal shift register shifts the data towards the left.
+* Similarly, pin-2 of 4X1 MUX is connected to the serial input for shift-left. In this mode, the universal shift register shifts the data towards the left.
 
 
-*M1 is the parallel input data given to the pin-3 of the first 4×1 MUX to provide parallel mode operation and stores the data into the register.
+* M1 is the parallel input data given to the pin-3 of the first 4×1 MUX to provide parallel mode operation and stores the data into the register.
 
 
-*Similarly, remaining individual parallel input data bits are given to the pin-3 of related 4X1MUX to provide parallel loading.
+* Similarly, remaining individual parallel input data bits are given to the pin-3 of related 4X1MUX to provide parallel loading.
 
 
-*F1, F2, F3, and F4 are the parallel outputs of Flip-flops, which are associated with the 4×1 MUX.
+* F1, F2, F3, and F4 are the parallel outputs of Flip-flops, which are associated with the 4×1 MUX.
 </details>
