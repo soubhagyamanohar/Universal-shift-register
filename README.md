@@ -10,5 +10,5 @@ A n-bit universal shift register consists of n flip-flops and n 4×1 multiplexer
 The second input (first pin of multiplexer) is connected to the output of the very-previous flip flop which facilitates the right shift.
 The third input (second pin of multiplexer) is connected to the output of the very-next flip-flop which facilitates the left shift.
 The fourth input (third pin of multiplexer) is connected to the individual bits of the input data which facilitates parallel loading.
-The working of the Universal shift register depends on the inputs given to the select lines.The register operations performed for the various inputs of select lines are as follows:
-![Functional Table][1462441952 1](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/7c0b1552-4637-4ffe-ba1a-89ba38d42da/image.jpg?raw=trued)
+The working of the Universal shift register depends on the inputs given to the select lines.The register operations performed for the various inputs of select lines are as follows:![Functional table](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/3b78c73b-d8fd-4bc8-89c8-cd166014485a)
+
