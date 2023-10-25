@@ -39,4 +39,30 @@ The working of the Universal shift register depends on the inputs given to the s
 
 
 * If the register operates with a parallel load and shifts the data towards the right and left, then it acts as a universal shift register.
+
+</details>
+<details open>
+<summary>Designing</summary>
+<br>The design of a 4-bit universal shift register using multiplexers and flip-flops is shown below.
+![Universal-Shift-Register-Design 1](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/ef20bc3f-7d61-4a29-8b08-c25b4509662e)
+
+* S0 and S1 are the selected pins that are used to select the mode of operation of this register. It may be shift left operation or shift right operation or parallel mode.
+
+
+* Pin-0 of first 4×1 Mux is fed to the output pin of the first flip-flop. Observe the connections as shown in the figure.
+
+
+*Pin-1 of the first 4X1 MUX is connected to serial input for shift right. In this mode, the register shifts the data towards the right.
+
+
+*Similarly, pin-2 of 4X1 MUX is connected to the serial input for shift-left. In this mode, the universal shift register shifts the data towards the left.
+
+
+*M1 is the parallel input data given to the pin-3 of the first 4×1 MUX to provide parallel mode operation and stores the data into the register.
+
+
+*Similarly, remaining individual parallel input data bits are given to the pin-3 of related 4X1MUX to provide parallel loading.
+
+
+*F1, F2, F3, and F4 are the parallel outputs of Flip-flops, which are associated with the 4×1 MUX.
 </details>
