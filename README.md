@@ -19,10 +19,10 @@ The working of the Universal shift register depends on the inputs given to the s
 <br>4-bit Universal shift register diagram is shown below.
 ![Universal-Shift-Register-Diagram 1](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/6d542947-80b4-486a-9237-1906083a0200)
 *Serial input for shift-right control enables the data transfer towards the right and all the serial input and output lines are connected to the shift-right mode. *The input is given to the AND gate-1 of the flip-flop -1 as shown in the figure via serial input pin.
-*Serial input for shift-left enables the data transfer towards the left and all the serial input and output lines are connected to shift-left mode.
+*(Serial input for shift-left enables the data transfer towards the left and all the serial input and output lines are connected to shift-left mode.)
 *In parallel data transfer, all the parallel inputs and outputs lines are associated with the parallel load.
 *Clear pin clears the register and set to 0.
 *CLK pin provides clock pulses to synchronize all the operations.
 *In the control state, the information or data in the register would not change even though the clock pulse is applied.
-*If the register operates with a parallel load and shifts the data towards the right and left, then it acts as a universal shift register.
+* If the register operates with a parallel load and shifts the data towards the right and left, then it acts as a universal shift register.
 </details>
