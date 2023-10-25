@@ -12,7 +12,7 @@ The third input (second pin of multiplexer) is connected to the output of the ve
 The fourth input (third pin of multiplexer) is connected to the individual bits of the input data which facilitates parallel loading.
 The working of the Universal shift register depends on the inputs given to the select lines.The register operations performed for the various inputs of select lines are as follows:
 ![Functional Table](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/37436c74-e572-489e-9c29-210e8a489cc8) 
-![Block Diagram Of n-bit Universal Shift Registers](![Block Diagram Of n-bit Universal Shift Registers](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/5cfc4965-07a1-4f02-96bb-0cdc2b43c4b5)
+![Block Diagram Of n-bit Universal Shift Registers](https://github.com/soubhagyamanohar/Universal-shift-register/assets/116057756/5cfc4965-07a1-4f02-96bb-0cdc2b43c4b5)
 </details>
 <details open>
 <summary>Circuit Diagram</summary>
