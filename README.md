@@ -110,3 +110,5 @@ Stores the data temporarily with in the register.
 * This register acts as an interface between one device to another device to transfer the data.
  </details>
  
+ https://github.com/soubhagyamanohar
+ https://github.com/SamruddhiHiremath
